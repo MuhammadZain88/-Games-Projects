@@ -1,1 +1,14 @@
+Project Title: Object Pooling
+Project Overview: "Galactic Defender" is a fast-paced 2D space shooter game where players pilot a spaceship to defend against waves of alien invaders. The game features high-intensity action, a variety of enemy types, and a range of power-ups. To ensure smooth gameplay and optimize performance, the project will implement an object pooling system to efficiently manage game objects like bullets, enemies, and explosions.
+Objective: To develop a 2D space shooter game using object pooling techniques to enhance performance, minimize memory allocation and deallocation overhead, and ensure a seamless gaming experience.
+Features:
+1.	Player Spaceship:
+o	Controlled by the player using keyboard or gamepad inputs.
+o	Equipped with a firing mechanism to shoot projectiles.
+2.	Enemies:
+o	Various types of alien ships with different movement patterns and behaviors.
+o	Enemies spawn in waves and gradually increase in difficulty.
+3.	Projectiles:
+o	Bullets fired by both the player and enemies.
+o	Managed through an object pooling system to minimize instantiation costs.
 
