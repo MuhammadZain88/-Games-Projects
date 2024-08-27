@@ -1,1 +1,36 @@
+Creating a basic calculator game in Unity involves a simple user interface (UI) where players can input numbers and perform basic arithmetic operations. Below is a step-by-step guide to creating this game:
+
+Step 1: Set Up Unity Project
+Open Unity and create a new 2D project.
+Name your project (e.g., "CalculatorGame") and choose a save location.
+Step 2: Design the User Interface (UI)
+Create a Canvas:
+
+Right-click in the Hierarchy panel.
+Go to UI > Canvas. This will be the container for all UI elements.
+Add Buttons for Digits (0-9):
+
+Right-click on the Canvas in the Hierarchy.
+Go to UI > Button to create a new button.
+Rename the button to Button0 (or any other digit).
+Duplicate the button (Ctrl + D) and rename it for other digits (Button1, Button2, etc.).
+Arrange the buttons on the Canvas to resemble a calculator keypad.
+Add Buttons for Operations (+, -, *, /):
+
+Repeat the process to create buttons for each arithmetic operation.
+Rename them appropriately (e.g., ButtonAdd, ButtonSubtract).
+Add a Display Text:
+
+Right-click on the Canvas.
+Go to UI > Text to create a text element.
+Rename it to DisplayText.
+Set the alignment to Center and adjust the size and position.
+Step 3: Write the Script
+Create a New Script:
+
+In the Project panel, right-click and choose Create > C# Script.
+Name it CalculatorScript.
+Edit the Script:
+
+Double-click the script to open it in your code editor.
 
